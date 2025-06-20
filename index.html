@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		    <meta charset="UTF-8">
+		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			    <title>Tuyisime Christian - Front-end Developer</title>
+			        <style>
+        :root {
+		            --primary-color: #3b82f6;
+			                --primary-dark: #2563eb;
+					            --bg-color: #ffffff;
+						                --text-primary: #1f2937;
+								            --text-secondary: #6b7280;
+									                --card-bg: #f8fafc;
+											            --border-color: #e5e7eb;
+												                --shadow: rgba(0, 0, 0, 0.1);
+														        }
+
+	        [data-theme="dark"] {
+			            --bg-color: #0f172a;
+				                --text-primary: #f1f5f9;
+						            --text-secondary: #94a3b8;
+							                --card-bg: #1e293b;
+									            --border-color: #334155;
+										                --shadow: rgba(0, 0, 0, 0.3);
+												        }
+
+		        * {
+				            margin: 0;
+					                padding: 0;
+							            box-sizing: border-box;
+								            }
+
+			        body {
+					            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+						                line-height: 1.6;
+								            color: var(--text-primary);
+									                background-color: var(--bg-color);
+											            transition: all 0.3s ease;
+												            }
+
+				        /* Navigation */
+				        .navbar {
+						            position: fixed;
+							                top: 0;
+									            width: 100%;
+										                background: var(--card-bg);
+												            backdrop-filter: blur(10px);
+													                z-index: 1000;
+															            padding: 1rem 0;
+																                box-shadow: 0 2px 10px var(--shadow);
+																		            transition: all 0.3s ease;
+																			            }
+
+					        .nav-container {
+							            max-width: 1200px;
+								                margin: 0 auto;
+										            padding: 0 2rem;
+											                display: flex;
+													            justify-content: space-between;
+														                align-items: center;
+																        }
+
+						        .logo {
+								            font-size: 1.5rem;
+									                font-weight: bold;
+											            color: var(--primary-color);
+												            }
+
+							        .nav-menu {
+									            display: flex;
+										                list-style: none;
+												            gap: 2rem;
+													                align-items: center;
+															        }
+
+								        .nav-link {
+										            text-decoration: none;
+											                color: var(--text-primary);
+													            font-weight: 500;
+														                transition: color 0.3s ease;
+																            position: relative;
+																	            }
+
+									        .nav-link:hover {
+											            color: var(--primary-color);
+												            }
+
+										        .nav-link::after {
+												            content: '';
+													                position: absolute;
+															            bottom: -5px;
+																                left: 0;
+																		            width: 0;
+																			                height: 2px;
+																					            background: var(--primary-color);
+																						                transition: width 0.3s ease;
+																								        }
+
+											        .nav-link:hover::after {
+													            width: 100%;
+														            }
+
+												        /* Theme Toggle */
+												        .theme-toggle {
+														            background: var(--card-bg);
+															                border: 2px solid var(--border-color);
+																	            border-radius: 50px;
+																		                width: 60px;
+																				            height: 30px;
+																					                cursor: pointer;
+																							            position: relative;
+																								                transition: all 0.3s ease;
+																										        }
+
+													        .theme-toggle::before {
+															            content: 'Ìºô';
+																                position: absolute;
+																		            top: 50%;
+																			                left: 5px;
+																					            transform: translateY(-50%);
+																						                font-size: 12px;
+																								            transition: all 0.3s ease;
+																									            }
+
+														        [data-theme="dark"] .theme-toggle::before {
+																            content: '‚òÄÔ∏è';
+																	                left: 35px;
+																			        }
+
+															        .theme-toggle::after {
+																	            content: '';
+																		                position: absolute;
+																				            top: 2px;
+																					                left: 2px;
+																							            width: 24px;
+																								                height: 24px;
+																										            background: var(--primary-color);
+																											                border-radius: 50%;
+																													            transition: all 0.3s ease;
+																														            }
+
+																        [data-theme="dark"] .theme-toggle::after {
+																		            transform: translateX(30px);
+																			            }
+
+																	        /* Mobile Menu */
+																	        .hamburger {
+																			            display: none;
+																				                flex-direction: column;
+																						            cursor: pointer;
+																							                gap: 3px;
+																									        }
+
+																		        .hamburger span {
+																				            width: 25px;
+																					                height: 3px;
+																							            background: var(--text-primary);
+																								                transition: all 0.3s ease;
+																										        }
+
+																			        /* Hero Sectionng: 0.3rem 0.8rem;
+																				               border-radius: 20px;    }
+
+																				               .form-group textarea {
+																						                   heigh  grid-template-columns: 1fr;
+																								                   gap: 2rem;
+																										              </div>
+																											                      </div>
+																													                  </div>  }
+																				               }
+
+																					               // Load saved theme
+																							               document.a     'Project timeline visualization',
+																						                           'F== 'dark') {
+																										                       navbar.style.background = 'rgeme="dark"] {
+																													                   --bg-color: #0f172a;
+																															               --tckground: var(--primary-color);
+																																                   transition: width 0cts-grid {
+																																			                   grid-template-columns: 1fr;
+																																					            class="profile-img">
+																																						                </div>
+																																								        </div>
+																																									    </s  <div class="slide">Ìªí</div>
+																																									                                <div <button type="submit" class="btn btn-primary">Send Message</bu           const nextButton = slider.querySelector('.slider-nex
